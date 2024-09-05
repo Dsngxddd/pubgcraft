@@ -1,0 +1,7 @@
+name: pubgcraft
+version: '${project.version}'
+main: net.cengiz1.pubgcraft.Pubgcraft
+api-version: '1.20'
+commands:
+  join:
+    description: Join Lobby

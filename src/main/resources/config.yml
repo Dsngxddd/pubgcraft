@@ -1,0 +1,19 @@
+# Dünya ile ilgili ayarlar
+world:
+  name: "battle_royale_world"  # Oyun haritasının adı
+  spawn_radius: 100            # Oyuncuların rastgele spawn olacağı alanın çapı (yarıçap olarak)
+  initial_border_size: 250      # Başlangıç alanı (250x250)
+  shrink_interval: 60           # Kaç saniyede bir alan daralsın
+  shrink_amount: 10             # Her daralma sırasında alan ne kadar küçülecek
+  minimum_border_size: 50       # Alanın daralabileceği en küçük boyut (50x50)
+
+# Oyunla ilgili ayarlar
+game:
+  min_players: 4               # Oyunun başlaması için gereken minimum oyuncu sayısı
+  countdown: 10                # Oyunun başlamadan önceki geri sayım süresi (saniye cinsinden)
+  scoreboard_title: "Battle Royale"  # Scoreboard başlığı
+
+# Alan daralması sırasındaki mesajlar ve hasar
+border:
+  damage_amount: 2             # Alanın dışına çıkan oyuncuların alacağı hasar miktarı
+  warning_message: "Dikkat! Alan daralıyor!"  # Alan daralmadan önce gösterilecek mesaj
